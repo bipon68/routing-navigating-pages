@@ -28,7 +28,6 @@ import { UserModule } from './user/user.module';
   ],
   imports: [
     BrowserModule,
-    UserModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [
